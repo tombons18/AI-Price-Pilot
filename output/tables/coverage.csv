@@ -1,0 +1,22 @@
+iso3,country,income,beans,oil,rice,sugar,wheat_flour,maize
+ARM,Armenia,Upper-middle,24,24,24,24,24,0
+BFA,Burkina Faso,Low,24,0,48,0,0,24
+BGD,Bangladesh,Lower-middle,4,33,38,5,24,0
+GHA,Ghana,Lower-middle,0,0,14,0,0,14
+IDN,Indonesia,Lower-middle -> Upper-middle,0,58,75,58,0,0
+IRQ,Iraq,Upper-middle,24,24,24,24,24,0
+JOR,Jordan,Upper-middle -> Lower-middle,24,48,24,24,24,0
+KEN,Kenya,Lower-middle,28,29,29,24,24,28
+KHM,Cambodia,Lower-middle,24,24,24,0,0,0
+LBY,Libya,Upper-middle,16,16,16,16,16,0
+MDG,Madagascar,Low,48,25,48,0,0,25
+MLI,Mali,Low,36,36,67,19,18,24
+MOZ,Mozambique,Low,46,22,31,20,14,14
+MWI,Malawi,Low,22,0,0,0,0,22
+NGA,Nigeria,Lower-middle,46,47,48,23,0,2
+PAK,Pakistan,Lower-middle,24,24,48,24,24,0
+PHL,Philippines,Lower-middle,72,0,72,0,0,24
+RWA,Rwanda,Low,24,47,95,23,0,24
+TJK,Tajikistan,Lower-middle,24,48,24,24,72,24
+UGA,Uganda,Low,24,24,0,0,0,24
+ZMB,Zambia,Lower-middle,14,28,7,14,0,15

@@ -1,0 +1,28 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{5}{c}{e}\\
+                & A Baseline      & B Country FE    & C No NGA/MWI    & D Actual only   & E Controls \\   
+   Model:       & (1)             & (2)             & (3)             & (4)             & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   drift        & -0.6450$^{***}$ & -0.4475$^{***}$ & -0.3618$^{***}$ & -0.5287$^{***}$ & -0.6196$^{***}$\\   
+                & (0.1492)        & (0.0949)        & (0.0836)        & (0.1336)        & (0.1459)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   cell         & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   iso3         &                 & Yes             &                 &                 & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations & 1,600           & 1,600           & 1,488           & 830             & 1,600\\  
+   R$^2$        & 0.28841         & 0.51884         & 0.21589         & 0.28372         & 0.29380\\  
+   Within R$^2$ & 0.17350         & 0.09589         & 0.04811         & 0.09075         & 0.17975\\  
+   \midrule \midrule
+   \multicolumn{6}{l}{\emph{Clustered (iso3) standard-errors in parentheses}}\\
+   \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

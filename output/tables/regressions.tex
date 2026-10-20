@@ -1,0 +1,36 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccccccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{9}{c}{y}\\
+                              & Main     & Pooled   & R1 eq.wts & R2 collapsed & R3 inv.var & R4 log GNI & R5 region FE & R6 Africa & R7 actual \\   
+   Model:                     & (1)      & (2)      & (3)       & (4)          & (5)        & (6)        & (7)          & (8)       & (9)\\  
+   \midrule
+   \emph{Variables}\\
+   inc\_low                   & -0.0531  & -0.0433  & -0.0437   & -0.0802      & -0.0832    &            & -0.0171      & 0.0154    & -0.1173$^{*}$\\   
+                              & (0.0573) & (0.0638) & (0.0569)  & (0.0598)     & (0.0657)   &            & (0.1275)     & (0.1235)  & (0.0658)\\   
+   inc\_lmid                  & -0.0614  & -0.0134  & -0.0755   & -0.0931      & -0.0886    &            & -0.0392      &           & -0.1239$^{**}$\\   
+                              & (0.0560) & (0.0626) & (0.0490)  & (0.0554)     & (0.0591)   &            & (0.0473)     &           & (0.0526)\\   
+   inc\_low $\times$ local    &          & -0.0097  &           &              &            &            &              &           &   \\   
+                              &          & (0.0909) &           &              &            &            &              &           &   \\   
+   inc\_lmid $\times$ local   &          & -0.0481  &           &              &            &            &              &           &   \\   
+                              &          & (0.0934) &           &              &            &            &              &           &   \\   
+   log\_gni                   &          &          &           &              &            & 0.0083     &              &           &   \\   
+                              &          &          &           &              &            & (0.0284)   &              &           &   \\   
+   \midrule
+   \emph{Fixed-effects}\\
+   cell                       & Yes      & Yes      & Yes       & Yes          & Yes        & Yes        & Yes          & Yes       & Yes\\  
+   region                     &          &          &           &              &            &            & Yes          &           & \\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations               & 1,816    & 2,152    & 1,816     & 651          & 1,816      & 1,816      & 1,816        & 924       & 950\\  
+   R$^2$                      & 0.16080  & 0.31991  & 0.18553   & 0.17787      & 0.22928    & 0.15605    & 0.17097      & 0.13951   & 0.25074\\  
+   Within R$^2$               & 0.00777  & 0.00690  & 0.01724   & 0.02640      & 0.03873    & 0.00216    & 0.00610      & 0.00811   & 0.03941\\  
+   \midrule \midrule
+   \multicolumn{10}{l}{\emph{Clustered (iso3) standard-errors in parentheses}}\\
+   \multicolumn{10}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

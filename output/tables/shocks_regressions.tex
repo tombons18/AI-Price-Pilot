@@ -1,0 +1,39 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \multicolumn{2}{c}{e} & \multicolumn{4}{c}{y}\\
+    & \multicolumn{2}{c}{Signed e} & |e| no shock & |e| + |drift| & |e| + deval. & Placebo \\ 
+   Model:       & (1)             & (2)             & (3)      & (4)           & (5)            & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   drift        & -0.6450$^{***}$ & -0.5775$^{***}$ &          &               &                &   \\   
+                & (0.1492)        & (0.1351)        &          &               &                &   \\   
+   drift\_post  &                 & -0.2403$^{*}$   &          &               &                &   \\   
+                &                 & (0.1348)        &          &               &                &   \\   
+   inc\_low     &                 &                 & -0.0658  & -0.0675       & -0.0692        &   \\   
+                &                 &                 & (0.0518) & (0.0529)      & (0.0590)       &   \\   
+   inc\_lmid    &                 &                 & -0.0500  & -0.0697       & -0.0993        &   \\   
+                &                 &                 & (0.0558) & (0.0545)      & (0.0581)       &   \\   
+   abs\_drift   &                 &                 &          & 0.2479$^{**}$ &                &   \\   
+                &                 &                 &          & (0.1044)      &                &   \\   
+   dep12        &                 &                 &          &               & 0.2818$^{***}$ &   \\   
+                &                 &                 &          &               & (0.0683)       &   \\   
+   dep\_c       &                 &                 &          &               &                & -0.1434$^{**}$\\   
+                &                 &                 &          &               &                & (0.0679)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   cell         & Yes             & Yes             & Yes      & Yes           & Yes            & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations & 1,600           & 1,600           & 1,600    & 1,600         & 1,752          & 336\\  
+   R$^2$        & 0.28841         & 0.29259         & 0.16845  & 0.19486       & 0.20258        & 0.44854\\  
+   Within R$^2$ & 0.17350         & 0.17836         & 0.01096  & 0.04237       & 0.05153        & 0.00673\\  
+   \midrule \midrule
+   \multicolumn{7}{l}{\emph{Clustered (iso3) standard-errors in parentheses}}\\
+   \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

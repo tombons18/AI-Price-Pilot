@@ -1,0 +1,7 @@
+.Renviron
+.Rhistory
+.RData
+.Rproj.user/
+data_raw/
+.DS_Store
+notes/
